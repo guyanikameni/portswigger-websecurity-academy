@@ -3,6 +3,8 @@
 
 ![step](img/Pasted image 20260503163621.png)
 
+<img width="737" height="209" alt="image" src="https://github.com/user-attachments/assets/97183985-97e3-445d-ac54-8b527a74adca" />
+
 
 I will walk through the PortSwigger Web Security Academy lab **Unprotected admin functionality**.
 
