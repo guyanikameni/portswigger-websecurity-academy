@@ -1,8 +1,6 @@
 # Write-up: Unprotected admin functionality  PortSwigger Academy
 
 
-![step](img/Pasted image 20260503163621.png)
-
 <img width="737" height="209" alt="image" src="https://github.com/user-attachments/assets/97183985-97e3-445d-ac54-8b527a74adca" />
 
 
@@ -16,7 +14,10 @@ This lab focuses on a common access control issue where an admin panel is expose
 
 ## Lab description
 
-![step](img/Pasted image 20260503163853.png)
+<img width="550" height="99" alt="image" src="https://github.com/user-attachments/assets/0a6beaa8-f906-416f-8fa2-ceb9e46ad932" />
+
+
+
 
 ## Steps
 
@@ -41,7 +42,8 @@ I can try to access the file directly in the browser by visiting:
 ```
 
 
-![step](img/Pasted image 20260503164136.png)
+<img width="939" height="346" alt="image" src="https://github.com/user-attachments/assets/589e5df1-d2ad-488a-bb97-9589eea3af88" />
+
 
 
 ### Checking `robots.txt` with curl
