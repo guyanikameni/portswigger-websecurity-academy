@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bienvenue.md",
+                "file": "07-access_control/Unprotected_admin_functionality/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bienvenue"
+              "title": "README"
             }
           }
         ]
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bienvenue.md",
+                "file": "07-access_control/Unprotected_admin_functionality/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Bienvenue"
+              "title": "Rétrolien pour README"
             }
           },
           {
@@ -129,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bienvenue.md",
+                "file": "07-access_control/Unprotected_admin_functionality/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Bienvenue"
+              "title": "Liens sortants de README"
             }
           },
           {
@@ -172,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bienvenue.md",
+                "file": "07-access_control/Unprotected_admin_functionality/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Bienvenue"
+              "title": "Plan de README"
             }
           }
         ]
@@ -201,6 +201,14 @@
   },
   "active": "d974d7ceaef8695a",
   "lastOpenFiles": [
+    "Pasted image 20260503164136.png",
+    "Pasted image 20260503164114.png",
+    "Pasted image 20260503163853.png",
+    "Pasted image 20260503163621.png",
+    "07-access_control/Unprotected_admin_functionality/README.md",
+    "Bienvenue.md",
+    "07-access_control/Unprotected_admin_functionality/img",
+    "07-access_control/Unprotected_admin_functionality",
     "23-JWT_attacks",
     "22-OAuth_authentication",
     "21-HTTP_request_smuggling",
@@ -208,10 +216,6 @@
     "18-server_side_template_injection",
     "17-insecure_deserialization",
     "16-websockets",
-    "15-DOM_based_vulnerabilities",
-    "14-clickjacking",
-    "13-cross_origin_resource_sharing_CORS",
-    "12-cross_site_request_forgery_CSRF",
-    "Bienvenue.md"
+    "15-DOM_based_vulnerabilities"
   ]
 }
