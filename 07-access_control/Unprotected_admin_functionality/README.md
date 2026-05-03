@@ -1,7 +1,7 @@
 # Write-up: Unprotected admin functionality  PortSwigger Academy
 
 
-![[Pasted image 20260503163621.png]]
+![step](img/Pasted image 20260503163621.png)
 
 
 I will walk through the PortSwigger Web Security Academy lab **Unprotected admin functionality**.
@@ -14,7 +14,7 @@ This lab focuses on a common access control issue where an admin panel is expose
 
 ## Lab description
 
-![[Pasted image 20260503163853.png]]
+![step](img/Pasted image 20260503163853.png)
 
 ## Steps
 
@@ -39,7 +39,7 @@ I can try to access the file directly in the browser by visiting:
 ```
 
 
-![[Pasted image 20260503164136.png]]
+![step](img/Pasted image 20260503164136.png)
 
 
 ### Checking `robots.txt` with curl
