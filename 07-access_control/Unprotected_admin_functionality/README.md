@@ -95,7 +95,7 @@ A `Disallow` entry only tells search engine crawlers which paths they should avo
 
 In this case, the file revealed the following path:
 
-```http
+http
 /administrator-panel
 
 To solve the lab, I opened the exposed admin panel directly in the browser:
@@ -105,9 +105,10 @@ To solve the lab, I opened the exposed admin panel directly in the browser:
 
 
 
-```markdown
+
 After discovering the hidden admin path, I visited `/administrator-panel` manually. Since the page was not protected, I was able to access the admin functionality and delete the user `carlos` to solve the lab.
 
 
+<img width="2202" height="736" alt="image" src="https://github.com/user-attachments/assets/ada8aca0-070e-4ffd-b778-4f58498ea39f" />
 
 
