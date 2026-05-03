@@ -51,8 +51,63 @@ I can try to access the file directly in the browser by visiting:
 Instead of opening the file in the browser, I can also check it directly from the terminal using `curl`:
 
 
-```bash
-curl https://0a8f00f704cb9ca9c08906980091002a.web-security-academy.net/robots.txt
+
+<img width="1043" height="374" alt="image" src="https://github.com/user-attachments/assets/ecb4408f-1dbc-424d-9339-57636722bc9d" />
+
+
+### Finding `robots.txt` with tools
+
+Another way to discover `robots.txt` is by using a content discovery tool.
+
+In most common wordlists, especially wordlists from **SecLists**, the `robots.txt` file is usually included. This means that during normal directory and file enumeration, tools like `gobuster` can quickly detect it.
+
+For example, I can run `gobuster` against the target using a common web content wordlist:
+
+gobuster dir -u https://0ae600510325336a8084b23c0014002a.web-security-academy.net/ -w /opt/Tool/SecLists/Discovery/Web-Content/common.txt
+
+
+
+<img width="1707" height="755" alt="image" src="https://github.com/user-attachments/assets/56e8921c-d66e-475c-9779-f96e7cac24d1" />
+
+
+### Automatic checks with Nikto
+
+Some web scanners check for `robots.txt` automatically during enumeration.
+
+For example, `Nikto` does not only detect the `robots.txt` file. It can also read the paths listed inside it and test whether those paths actually exist on the server.
+
+This is useful because it saves time. Instead of manually opening every path found in `robots.txt`, Nikto reports the interesting entries directly in its output.
+
+
+  nikto -h https://0ae600510325336a8084b23c0014002a.web-security-academy.net
+
+
+<img width="2185" height="481" alt="image" src="https://github.com/user-attachments/assets/43ae6b94-7d03-40f4-a5ad-283805916d36" />
+
+
+
+
+## Exploiting the issue
+
+The key point in this lab is that `robots.txt` should never be used as a protection mechanism.
+
+A `Disallow` entry only tells search engine crawlers which paths they should avoid indexing. It does not block access to those paths. Anyone can open the `robots.txt` file, read the hidden locations, and visit them manually.
+
+In this case, the file revealed the following path:
+
+```http
+/administrator-panel
+
+To solve the lab, I opened the exposed admin panel directly in the browser:
+
+
+<img width="2239" height="623" alt="image" src="https://github.com/user-attachments/assets/e2d19949-c339-414d-a6f2-92df9265f0fe" />
+
+
+
+```markdown
+After discovering the hidden admin path, I visited `/administrator-panel` manually. Since the page was not protected, I was able to access the admin functionality and delete the user `carlos` to solve the lab.
+
 
 
 
