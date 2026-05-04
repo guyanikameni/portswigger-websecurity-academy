@@ -71,7 +71,7 @@ After changing the `Admin` cookie value from `false` to `true` and reloading the
 
 
 
-![step](img/Pasted image 20260504064937.png)
+
 
 
 
