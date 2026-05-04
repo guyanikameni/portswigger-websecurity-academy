@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07-access_control/(04) User role can be modified in user profile/README.md",
+                "file": "07-access_control/(05) User ID controlled by request parameter/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -185,21 +185,25 @@
   },
   "active": "d974d7ceaef8695a",
   "lastOpenFiles": [
-    "Pasted image 20260504091539.png",
-    "Pasted image 20260504091454.png",
-    "Pasted image 20260504091414.png",
-    "Pasted image 20260504091018.png",
-    "Pasted image 20260504085751.png",
-    "Pasted image 20260504085723.png",
-    "07-access_control/(03) User role controlled by request parameter/README.md",
+    "07-access_control/(05) User ID controlled by request parameter/img/Pasted image 20260504095104.png",
+    "07-access_control/(05) User ID controlled by request parameter/img/Pasted image 20260504095028.png",
+    "07-access_control/(05) User ID controlled by request parameter/img/Pasted image 20260504094914.png",
+    "07-access_control/(05) User ID controlled by request parameter/img/Pasted image 20260504094530.png",
+    "07-access_control/(05) User ID controlled by request parameter/img/Pasted image 20260504093525.png",
+    "07-access_control/(05) User ID controlled by request parameter/img/Pasted image 20260504093507.png",
+    "07-access_control/(05) User ID controlled by request parameter/img/Pasted image 20260504093441.png",
+    "07-access_control/(05) User ID controlled by request parameter/img/Pasted image 20260504093406.png",
+    "07-access_control/(05) User ID controlled by request parameter/img/Pasted image 20260504093344.png",
+    "07-access_control/(05) User ID controlled by request parameter/img/Pasted image 20260504091539.png",
+    "07-access_control/(05) User ID controlled by request parameter/img/Pasted image 20260504091454.png",
     "07-access_control/(04) User role can be modified in user profile/README.md",
+    "07-access_control/(05) User ID controlled by request parameter/README.md",
+    "07-access_control/(04) User role can be modified in user profile/img",
+    "07-access_control/(03) User role controlled by request parameter/README.md",
+    "07-access_control/(05) User ID controlled by request parameter/img",
+    "07-access_control/(05) User ID controlled by request parameter",
     "07-access_control/(04) User role can be modified in user profile/img",
     "07-access_control/(04) User role can be modified in user profile",
-    "Pasted image 20260504070240.png",
-    "Pasted image 20260504070202.png",
-    "Pasted image 20260504070124.png",
-    "07-access_control/(03) User role controlled by request parameter/img/Pasted image 20260504064937.png",
-    "07-access_control/(03) User role controlled by request parameter/img/Pasted image 20260504064811.png",
     "07-access_control/(02) Unprotected admin functionality with unpredictable URL/README.md",
     "07-access_control/(03) User role controlled by request parameter/img",
     "07-access_control/(03) User role controlled by request parameter",
@@ -208,9 +212,6 @@
     "img",
     "07-access_control/(02) Unprotected admin functionality with unpredictable URL/img",
     "07-access_control/(02) Unprotected admin functionality with unpredictable URL",
-    "07-access_control/Unprotected admin functionality with unpredictable URL/README",
-    "Bienvenue.md",
-    "07-access_control/(01) Unprotected_admin_functionality/img",
-    "07-access_control/(01) Unprotected_admin_functionality"
+    "Bienvenue.md"
   ]
 }

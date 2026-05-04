@@ -27,8 +27,9 @@ The public shop pages do not reveal anything useful, so I log in using the provi
 wiener:peter
 ```
 
+![[Pasted image 20260504093344.png]]
 
-![step](img/Pasted image 20260504085751.png)
+
 
 
 ### Intercepting the email update request
@@ -41,8 +42,10 @@ This step is important because profile update requests sometimes contain hidden 
 
 After sending the email update request, I also check the server response. The response looks interesting because it includes user information that may help identify how roles are handled by the application.
 
+![[Pasted image 20260504093406.png]]
 
-![step](img/Pasted image 20260504091018.png)
+
+
 
 The request contains the new email address in JSON format.
 
@@ -59,12 +62,13 @@ To test this, I modify the intercepted request in Burp Suite and add an extra fi
 If the server accepts this extra field, it may be possible to change account properties that a normal user should not be able to control.
 
 
-![step](img/Pasted image 20260504091414.png)
+![[Pasted image 20260504093441.png]]
 
 
 
 
-![step](img/Pasted image 20260504091454.png)
+![[Pasted image 20260504093507.png]]
+
 
 
 The server does not apply the modified `username` value, but it does apply the modified `roleid`.
@@ -74,8 +78,4 @@ This confirms that the application is vulnerable because it allows a normal user
 After setting my `roleid` to `2`, I can access the admin panel 
 
 
-
-![step](img/Pasted image 20260504091539.png)
-
-
-
+![[Pasted image 20260504093525.png]]
