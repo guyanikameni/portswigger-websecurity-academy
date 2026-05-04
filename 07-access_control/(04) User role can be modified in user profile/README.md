@@ -28,7 +28,8 @@ wiener:peter
 ```
 
 
-![step](img/Pasted image 20260504085751.png)
+<img width="1106" height="537" alt="image" src="https://github.com/user-attachments/assets/4098de26-065d-4b28-b321-1f8e4511bbdd" />
+
 
 
 ### Intercepting the email update request
@@ -42,7 +43,8 @@ This step is important because profile update requests sometimes contain hidden 
 After sending the email update request, I also check the server response. The response looks interesting because it includes user information that may help identify how roles are handled by the application.
 
 
-![step](img/Pasted image 20260504091018.png)
+<img width="2241" height="989" alt="image" src="https://github.com/user-attachments/assets/f9263233-202a-4b6e-a90a-c155b70e87d2" />
+
 
 The request contains the new email address in JSON format.
 
@@ -59,12 +61,12 @@ To test this, I modify the intercepted request in Burp Suite and add an extra fi
 If the server accepts this extra field, it may be possible to change account properties that a normal user should not be able to control.
 
 
-![step](img/Pasted image 20260504091414.png)
+<img width="2170" height="796" alt="image" src="https://github.com/user-attachments/assets/c7990969-fd54-4ad5-be26-680a60b72072" />
 
 
+<img width="2163" height="837" alt="image" src="https://github.com/user-attachments/assets/3ec4763d-2f0a-4836-8858-cbeac0d82668" />
 
 
-![step](img/Pasted image 20260504091454.png)
 
 
 The server does not apply the modified `username` value, but it does apply the modified `roleid`.
@@ -74,8 +76,8 @@ This confirms that the application is vulnerable because it allows a normal user
 After setting my `roleid` to `2`, I can access the admin panel 
 
 
+<img width="1087" height="764" alt="image" src="https://github.com/user-attachments/assets/f702e4af-63c5-48ef-9583-daa5ff99b37e" />
 
-![step](img/Pasted image 20260504091539.png)
 
 
 
