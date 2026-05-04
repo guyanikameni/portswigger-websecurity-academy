@@ -27,8 +27,9 @@ wiener:peter
 ```
 
 
+<img width="1054" height="592" alt="image" src="https://github.com/user-attachments/assets/adde617a-5a01-4f6f-a4d9-f50de0592f80" />
 
-![[Pasted image 20260504094530.png]]
+
 
 
 ### Checking the Account Page
@@ -55,7 +56,8 @@ To test for horizontal privilege escalation, I changed the value of the `id` par
 /my-account?id=carlos
 ```
 
-![[Pasted image 20260504094914.png]]
+<img width="2506" height="729" alt="image" src="https://github.com/user-attachments/assets/cb503969-c779-4f26-8a49-1e355c85a96e" />
+
 
 
 After sending the modified request, the application returned Carlos’s account page instead of blocking the request.
@@ -66,5 +68,4 @@ As a result, I was able to view Carlos’s API key and submit it to solve the la
 
 
 
-
-![[Pasted image 20260504095104.png]]
+<img width="1590" height="926" alt="image" src="https://github.com/user-attachments/assets/a87ea2e4-7218-4d72-8fa1-51447a2fa74e" />
