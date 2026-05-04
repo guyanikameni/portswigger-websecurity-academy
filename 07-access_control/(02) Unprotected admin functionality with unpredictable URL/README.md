@@ -33,12 +33,19 @@ This is not a secure approach because anything sent to the browser can be viewed
 
 
 
+<<<<<<< HEAD:07-access_control/(02) Unprotected admin functionality with unpredictable URL/README.md
+=======
+<img width="1058" height="1110" alt="image" src="https://github.com/user-attachments/assets/43b34c3e-07fe-420a-a244-176228e76dda" />
+
+
+>>>>>>> 8ed93831b07fec3f2d5f53669175d9018552c407:07-access_control/Unprotected admin functionality with unpredictable URL/README.md
 
 
 Once the admin URL is discovered, solving the lab is straightforward.
 
 I opened the exposed admin panel in the browser and clicked **Delete** next to the user `carlos`. This completed the lab.
 
+<<<<<<< HEAD:07-access_control/(02) Unprotected admin functionality with unpredictable URL/README.md
 
 
 
@@ -47,3 +54,13 @@ I opened the exposed admin panel in the browser and clicked **Delete** next to t
 
 ![[Pasted image 20260504060406.png
 ![[Pasted image 20260504060417.png]]
+=======
+<img width="1090" height="705" alt="image" src="https://github.com/user-attachments/assets/9a185026-fcc0-4b5b-bb24-7bc97a2e0d2c" />
+
+
+
+
+
+<img width="2202" height="736" alt="image" src="https://github.com/user-attachments/assets/0e38a027-5746-4610-94e6-4b8830346e47" />
+
+>>>>>>> 8ed93831b07fec3f2d5f53669175d9018552c407:07-access_control/Unprotected admin functionality with unpredictable URL/README.md
