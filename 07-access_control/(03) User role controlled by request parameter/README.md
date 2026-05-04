@@ -30,7 +30,8 @@ wiener:peter
 
 
 
-![step](img/Pasted image 20260504063921.png)
+<img width="2014" height="673" alt="image" src="https://github.com/user-attachments/assets/38c6fa0a-0abc-4e08-ac51-c3eda8021b96" />
+
 
 
 ### Checking the cookies
@@ -48,7 +49,9 @@ The `session` cookie identifies my current login session, while the `Admin` cook
 
 Because the lab description says that administrators are identified by a cookie, I focus on the `Admin` cookie and test whether changing its value affects my access.
 
-![step](img/Pasted image 20260504064320.png)
+
+<img width="535" height="535" alt="image" src="https://github.com/user-attachments/assets/7ae3264a-9fb7-4188-b467-efdb94b3f585" />
+
 
 
 
@@ -64,7 +67,13 @@ f the application trusts this cookie without verifying the user’s role on the 
 ![step](img/Pasted image 20260504064730.png)
 After changing the `Admin` cookie value from `false` to `true` and reloading the page, the application exposes the **admin panel**. From there, I can access the user management functionality, delete the user `carlos`, and complete the lab.
 
-![step](img/Pasted image 20260504064811.png)
+<img width="512" height="526" alt="image" src="https://github.com/user-attachments/assets/4ae4cc2a-f887-4d3a-8c94-db8c112e3cdd" />
+
 
 
 ![step](img/Pasted image 20260504064937.png)
+
+
+
+<img width="2532" height="650" alt="image" src="https://github.com/user-attachments/assets/5bfb6a7c-bc9c-470b-ad98-ab607b241b09" />
+
