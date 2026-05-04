@@ -30,7 +30,8 @@ While reviewing the website, I noticed that the navigation links at the top of t
 This is not a secure approach because anything sent to the browser can be viewed by the user. If the admin URL is included in the page source or JavaScript code, an attacker can find it even if the link is not visible on the page.
 
 
-<img width="1707" height="755" alt="image" src="https://github.com/user-attachments/assets/865b6ec4-adba-4e25-9f72-0e2d19509175" />
+<img width="1058" height="1110" alt="image" src="https://github.com/user-attachments/assets/43b34c3e-07fe-420a-a244-176228e76dda" />
+
 
 
 
