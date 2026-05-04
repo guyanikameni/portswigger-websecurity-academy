@@ -29,16 +29,21 @@ While reviewing the website, I noticed that the navigation links at the top of t
 
 This is not a secure approach because anything sent to the browser can be viewed by the user. If the admin URL is included in the page source or JavaScript code, an attacker can find it even if the link is not visible on the page.
 
+![[Pasted image 20260504060337.png]]
 
-![step](img/Pasted image 20260504054229.png)
+
+
 
 
 Once the admin URL is discovered, solving the lab is straightforward.
 
 I opened the exposed admin panel in the browser and clicked **Delete** next to the user `carlos`. This completed the lab.
 
-![step](img/Pasted image 20260504054812.png)
 
 
 
-![step](img/Pasted image 20260504054854.png)
+![[Pasted image 20260504060512.png]]
+
+
+![[Pasted image 20260504060406.png
+![[Pasted image 20260504060417.png]]
