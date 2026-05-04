@@ -29,8 +29,8 @@ wiener:peter
 ```
 
 
+![[Pasted image 20260504070124.png]]
 
-![step](img/Pasted image 20260504063921.png)
 
 
 ### Checking the cookies
@@ -58,13 +58,18 @@ To test the access control, I modify the value to:
 Admin=true
 ```
 
-f the application trusts this cookie without verifying the user’s role on the server side, changing the value to `true` may allow access to the admin panel.
+if the application trusts this cookie without verifying the user’s role on the server side, changing the value to `true` may allow access to the admin panel.
 
 
-![step](img/Pasted image 20260504064730.png)
+![[Pasted image 20260504070202.png]]
+
+
+
+
 After changing the `Admin` cookie value from `false` to `true` and reloading the page, the application exposes the **admin panel**. From there, I can access the user management functionality, delete the user `carlos`, and complete the lab.
 
-![step](img/Pasted image 20260504064811.png)
 
 
-![step](img/Pasted image 20260504064937.png)
+![[Pasted image 20260504070240.png]]
+
+
