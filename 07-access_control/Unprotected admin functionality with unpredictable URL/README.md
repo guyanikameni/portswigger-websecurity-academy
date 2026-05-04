@@ -39,7 +39,8 @@ Once the admin URL is discovered, solving the lab is straightforward.
 
 I opened the exposed admin panel in the browser and clicked **Delete** next to the user `carlos`. This completed the lab.
 
-<img width="2239" height="623" alt="image" src="https://github.com/user-attachments/assets/6bcd59b7-b743-4208-af1c-c4d13b143030" />
+<img width="1090" height="705" alt="image" src="https://github.com/user-attachments/assets/9a185026-fcc0-4b5b-bb24-7bc97a2e0d2c" />
+
 
 
 
