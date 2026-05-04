@@ -48,7 +48,33 @@ Instead of opening the file in the browser, I can also check it directly from th
 
 
 ```bash
-curl https://0a8f00f704cb9ca9c08906980091002a.web-security-academy.net/robots.txt
+curl https://0a8f00f704cb9ca9c08906980091002a.web-security-academy.net/robots.txt 
+```
+
+![[Pasted image 20260504051606.png]]
+
+
+### Finding `robots.txt` with tools
+
+Another way to discover `robots.txt` is by using a content discovery tool.
 
 
 
+```
+gobuster dir -u [https://0ae600510325336a8084b23c0014002a.web-security-academy.net/](https://0ae600510325336a8084b23c0014002a.web-security-academy.net/) -w /opt/Tool/SecLists/Discovery/Web-Content/common.txt
+
+```
+
+![[Pasted image 20260504051723.png]]
+
+
+### Automatic checks with Nikto
+Some web scanners check for `robots.txt` automatically during enumeration.
+
+
+```
+nikto -h [https://0ae600510325336a8084b23c0014002a.web-security-academy.net](https://0ae600510325336a8084b23c0014002a.web-security-academy.net)
+```
+
+
+![[Pasted image 20260504051838.png]]

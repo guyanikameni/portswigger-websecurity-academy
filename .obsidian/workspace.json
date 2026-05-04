@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bienvenue.md",
+                "file": "07-access_control/Unprotected admin functionality with unpredictable URL/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bienvenue"
-            }
-          }
-        ]
-      },
-      {
-        "id": "bc9bee53b5fadab5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "870970c9fd422183",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vue graphique"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 415.5
   },
   "right": {
     "id": "523a609eb4557b9d",
@@ -110,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bienvenue.md",
+                "file": "07-access_control/Unprotected admin functionality with unpredictable URL/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Bienvenue"
+              "title": "Rétrolien pour README"
             }
           },
           {
@@ -129,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bienvenue.md",
+                "file": "07-access_control/Unprotected admin functionality with unpredictable URL/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Bienvenue"
+              "title": "Liens sortants de README"
             }
           },
           {
@@ -172,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bienvenue.md",
+                "file": "07-access_control/Unprotected admin functionality with unpredictable URL/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Bienvenue"
+              "title": "Plan de README"
             }
           }
         ]
@@ -199,17 +183,24 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "d974d7ceaef8695a",
+  "active": "34fb72ca56c3967e",
   "lastOpenFiles": [
-    "07-access_control/Unprotected_admin_functionality/img/Pasted image 20260503164136.png",
-    "07-access_control/Unprotected_admin_functionality/img/Pasted image 20260503164114.png",
-    "07-access_control/Unprotected_admin_functionality/img/Pasted image 20260503163853.png",
-    "07-access_control/Unprotected_admin_functionality/img/Pasted image 20260503163621.png",
-    "Pasted image 20260503164136.png",
-    "Pasted image 20260503164114.png",
-    "Pasted image 20260503163853.png",
-    "Pasted image 20260503163621.png",
+    "07-access_control/Unprotected admin functionality with unpredictable URL/img/Pasted image 20260504054854.png",
+    "07-access_control/Unprotected admin functionality with unpredictable URL/img/Pasted image 20260504054812.png",
+    "07-access_control/Unprotected admin functionality with unpredictable URL/img/Pasted image 20260504054229.png",
+    "07-access_control/Unprotected admin functionality with unpredictable URL/img/Pasted image 20260504051838.png",
+    "07-access_control/Unprotected admin functionality with unpredictable URL/img/Pasted image 20260504051723.png",
+    "07-access_control/Unprotected admin functionality with unpredictable URL/img/Pasted image 20260504051606.png",
+    "Pasted image 20260504054854.png",
+    "Pasted image 20260504054812.png",
+    "Pasted image 20260504054229.png",
     "07-access_control/Unprotected_admin_functionality/README.md",
+    "07-access_control/Unprotected admin functionality with unpredictable URL/README.md",
+    "07-access_control/Unprotected admin functionality with unpredictable URL/README",
+    "07-access_control/Unprotected admin functionality with unpredictable URL/img",
+    "07-access_control/Unprotected admin functionality with unpredictable URL",
+    "Pasted image 20260504051838.png",
+    "Pasted image 20260504051723.png",
     "Bienvenue.md",
     "07-access_control/Unprotected_admin_functionality/img",
     "07-access_control/Unprotected_admin_functionality",
@@ -217,9 +208,6 @@
     "22-OAuth_authentication",
     "21-HTTP_request_smuggling",
     "20-HTTP_host_header_attacks",
-    "18-server_side_template_injection",
-    "17-insecure_deserialization",
-    "16-websockets",
-    "15-DOM_based_vulnerabilities"
+    "18-server_side_template_injection"
   ]
 }
