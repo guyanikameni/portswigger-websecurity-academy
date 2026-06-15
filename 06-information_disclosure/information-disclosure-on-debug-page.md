@@ -30,3 +30,4 @@ https://0a6a006604924a3a886f7af0002c0058.web-security-academy.net/cgi-bin/phpinf
 <img width="1036" height="976" alt="image" src="https://github.com/user-attachments/assets/62e0a609-01f4-4ab0-a422-29536152ad17" />
 
 The page is large, so by pressing `CTRL+F` and searching for the word `SECRET_KEY`, we found the flag sitting in plain text with the other configuration data.
+<img width="2118" height="856" alt="image" src="https://github.com/user-attachments/assets/3d7c8c59-40b0-410a-bee6-0de55eec41c0" />
